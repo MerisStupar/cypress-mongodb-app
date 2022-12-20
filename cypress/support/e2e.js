@@ -14,7 +14,10 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import "./commands";
+
+//Importing new support files
+import "./SignInForm/sign_up_form.actions";
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

@@ -1,0 +1,9 @@
+{
+    "emailField": "[type=email]",
+    "passowrdField": "[type=password]",
+    "usernameField": "[class=Input_root__RKa3c]",
+    "nameField": "[class=Input_root__RKa3c]",
+    "signupBtn": ".Button_button__QHarr",
+    "toastNotification_Password": "[class=go3958317564]",
+    "toastNotification_Email": "[class=go3958317564]"
+}

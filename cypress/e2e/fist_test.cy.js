@@ -1,9 +1,9 @@
 ///<reference types="Cypress"/>
 
-describe("E2E tests for Sign-up form", () => {
+describe("First test", () => {
   beforeEach(() => {
     cy.visit("/sign-up");
   });
 
-  it("First e2e test", () => {});
+  it("Basic test", () => {});
 });
