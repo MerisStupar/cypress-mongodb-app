@@ -16,6 +16,8 @@
 // Import commands.js using ES2015 syntax:
 import "./commands";
 
+import "cypress-mochawesome-reporter/register";
+
 //Importing new support files
 import "./SignInForm/sign_up_form.actions";
 

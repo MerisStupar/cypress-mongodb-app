@@ -4,7 +4,7 @@ Cypress.Commands.add("LoginFormFields", () => {
     cy.get(el.passowrdField).should("be.visible").should("be.empty");
     cy.get(el.usernameField).eq(2).should("be.visible");
     cy.get(el.nameField).eq(3).should("be.visible");
-    cy.get(el.signupBtn).eq(2).should("be.visible").and("have.text", "Sign up");
+    cy.get(el.signupBtn).eq(2).should("be.visible").and("have.text", "TEST");
   });
 });
 
