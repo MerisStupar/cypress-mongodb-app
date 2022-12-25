@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
     "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/SignUpForm",
-    "cypress:firefox": "cypress run --browser firefox --spec cypress/e2e/SignUpForm",
-    "cypress:run": "cypress run"
+    "cypress:firefox": "cypress run --browser firefox --spec cypress/e2e/SignUpForm"
   },
   "keywords": [],
   "author": "",

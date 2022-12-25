@@ -21,6 +21,9 @@ describe("Unit testing of our app", () => {
       expect(multiply(2, 2)).to.eq(4);
     });
   });
+  afterEach(() => {
+    cy.log("Test successfully passed!");
+  });
 });
 
 describe("Unit test for DECIMAL numbers", () => {
@@ -32,5 +35,9 @@ describe("Unit test for DECIMAL numbers", () => {
     it("Should substract a positive nubmer", () => {
       expect(subtract(3.3, 3.3)).to.eq(0);
     });
+  });
+
+  afterEach(() => {
+    cy.log("Test successfully passed!");
   });
 });

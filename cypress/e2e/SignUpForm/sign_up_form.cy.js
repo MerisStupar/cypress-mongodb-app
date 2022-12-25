@@ -41,4 +41,8 @@ describe("E2E test for Sign-up form - Toast notification", () => {
   it("Testing user already exist - username has been used", () => {
     cy.UserAlreadyExist_Username();
   });
+
+  afterEach(() => {
+    cy.log("Test successfully passed!");
+  });
 });
