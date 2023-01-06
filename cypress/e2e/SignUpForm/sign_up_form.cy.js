@@ -24,6 +24,10 @@ describe("E2E tests for Sign-up form", () => {
   it("Testing password field - empty field", () => {
     cy.PasswordCheckEmpty();
   });
+
+  afterEach(() => {
+    cy.log("Test successfully passed!");
+  });
 });
 
 describe("E2E test for Sign-up form - Toast notification", () => {
