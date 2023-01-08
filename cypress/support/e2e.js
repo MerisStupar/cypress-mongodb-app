@@ -20,6 +20,7 @@ import "cypress-mochawesome-reporter/register";
 
 //Importing new support files
 import "./SignInForm/sign_up_form.actions";
+import "./LoginForm/loginForm.actions";
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

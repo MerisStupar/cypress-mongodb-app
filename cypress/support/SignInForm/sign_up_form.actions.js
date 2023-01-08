@@ -1,8 +1,5 @@
-import signupPage from "../../pages/signupPage";
-
 Cypress.Commands.add("LoginFormFields", () => {
   cy.fixture("./SignUpForm/sign_up_form").then((el) => {
-    signupPage.test();
     cy.get(el.emailField).should("be.visible").should("be.empty");
     cy.get(el.passowrdField).should("be.visible").should("be.empty");
     cy.get(el.usernameField).eq(2).should("be.visible");

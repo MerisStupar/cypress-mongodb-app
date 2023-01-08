@@ -1,0 +1,5 @@
+{
+    "emailField": "[type=email]",
+    "passwordField": "[type=password]",
+    "loginBtn": ".Button_button__QHarr "
+}
