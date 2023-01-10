@@ -1,5 +1,8 @@
 {
     "emailField": "[type=email]",
     "passwordField": "[type=password]",
-    "loginBtn": ".Button_button__QHarr "
+    "loginBtn": ".Button_button__QHarr ",
+    "toastNotf": "[class=go2072408551]",
+    "avatarBtn": "[class=Nav_trigger__1D3cn]",
+    "menu": "[class=Nav_popover__dA3_5]"
 }

@@ -30,4 +30,9 @@ describe("Login form E2E test - Login User", () => {
   it("Login user - Login to the feed ", () => {
     cy.LoginUser();
   });
+
+  it.only("Logout user - Logout user to the Login page ", () => {
+    cy.LoginUser();
+    cy.LogoutUser();
+  });
 });
