@@ -59,24 +59,6 @@ describe("API Testing", () => {
       .should("deep.equal", apiItems);
   });
 
-  /* it("JSON Schema Check", () => {
-    cy.request("GET", "http://localhost:3000/api/posts?limit=10")
-      .its("body.posts")
-      .each((value) => {
-        expect(value).to.have.all.keys(
-          "_id",
-          "content",
-          "creatorId",
-          "createdAt",
-          "_id",
-          "profilePicture",
-          "name",
-          "username",
-          "bio"
-        );
-      });
-  }); */
-
   it("Using Alias Request", () => {
     cy.get("@posts").should((response) => {
       expect(response.body.posts).to.have.length(2);
