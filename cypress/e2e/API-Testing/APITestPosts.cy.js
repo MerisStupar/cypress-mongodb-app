@@ -6,7 +6,7 @@ describe("API Testing", () => {
   });
 
   it("Body Length - Posts Test", () => {
-    cy.request("GET", "http://localhost:3000/api/posts?limit=10")
+    cy.intercept("GET", "http://localhost:3000/api/posts?limit=10")
       .its("body.posts")
       .should("have.length", 2);
   });
