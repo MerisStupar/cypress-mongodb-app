@@ -6,9 +6,9 @@ describe("API Testing", () => {
   });
 
   it("Body Length - Posts Test", () => {
-    cy.intercept("GET", "http://localhost:3000/api/posts?limit=10")
+    cy.request("GET", "http://localhost:3000/api/posts?limit=10")
       .its("body.posts")
-      .should("have.length", 2);
+      .should("have.length", 4);
   });
 
   it("Request Status - Status 200 Test", () => {
@@ -25,6 +25,32 @@ describe("API Testing", () => {
   });
 
   const apiItems = [
+    {
+      _id: "63c2c25294ffa813d0c0490e",
+      content: "test",
+      creatorId: "63bb4388b362a9b6f407e16f",
+      createdAt: "2023-01-14T14:55:14.850Z",
+      creator: {
+        _id: "63bb4388b362a9b6f407e16f",
+        profilePicture: null,
+        name: "Stupar",
+        username: "merismeris",
+        bio: "",
+      },
+    },
+    {
+      _id: "63c2b88b94ffa813d0c0490c",
+      content: "cao",
+      creatorId: "63bb4388b362a9b6f407e16f",
+      createdAt: "2023-01-14T14:13:31.597Z",
+      creator: {
+        _id: "63bb4388b362a9b6f407e16f",
+        profilePicture: null,
+        name: "Stupar",
+        username: "merismeris",
+        bio: "",
+      },
+    },
     {
       _id: "63ac4b9b26a2f1351aaeb7ed",
       content: "Test 2",
@@ -61,7 +87,7 @@ describe("API Testing", () => {
 
   it("Using Alias Request", () => {
     cy.get("@posts").should((response) => {
-      expect(response.body.posts).to.have.length(2);
+      expect(response.body.posts).to.have.length(4);
       expect(response).to.have.property("headers");
     });
   });
