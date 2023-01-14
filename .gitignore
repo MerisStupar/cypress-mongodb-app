@@ -1,2 +1,2 @@
 node_modules
-./cypress-mongodb-app\cypress\reports\*
+/cypress-mongodb-app\cypress\reports\*
