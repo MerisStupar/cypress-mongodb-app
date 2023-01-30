@@ -1,0 +1,134 @@
+{
+  "posts": [
+    {
+      "_id": "63d059db1a21ad8213b167c7",
+      "content": "Test 1",
+      "creatorId": "63bb4388b362a9b6f407e16f",
+      "createdAt": "2023-01-24T22:21:15.442Z",
+      "creator": {
+        "_id": "63bb4388b362a9b6f407e16f",
+        "profilePicture": null,
+        "name": "Stupar",
+        "username": "merismeris",
+        "bio": ""
+      }
+    },
+    {
+      "_id": "63d058131a21ad8213b167c4",
+      "content": "testing38",
+      "creatorId": "63bb4388b362a9b6f407e16f",
+      "createdAt": "2023-01-24T22:13:39.884Z",
+      "creator": {
+        "_id": "63bb4388b362a9b6f407e16f",
+        "profilePicture": null,
+        "name": "Stupar",
+        "username": "merismeris",
+        "bio": ""
+      }
+    },
+    {
+      "_id": "63d04aa11a21ad8213b167b8",
+      "content": "mm",
+      "creatorId": "63bb4388b362a9b6f407e16f",
+      "createdAt": "2023-01-24T21:16:17.490Z",
+      "creator": {
+        "_id": "63bb4388b362a9b6f407e16f",
+        "profilePicture": null,
+        "name": "Stupar",
+        "username": "merismeris",
+        "bio": ""
+      }
+    },
+    {
+      "_id": "63c43616771becae4507c163",
+      "content": "TEST",
+      "creatorId": "63bb4388b362a9b6f407e16f",
+      "createdAt": "2023-01-15T17:21:26.527Z",
+      "creator": {
+        "_id": "63bb4388b362a9b6f407e16f",
+        "profilePicture": null,
+        "name": "Stupar",
+        "username": "merismeris",
+        "bio": ""
+      }
+    },
+    {
+      "_id": "63c41f2b771becae4507c15d",
+      "content": "DEMO-TEST",
+      "creatorId": "63bb4388b362a9b6f407e16f",
+      "createdAt": "2023-01-15T15:43:39.737Z",
+      "creator": {
+        "_id": "63bb4388b362a9b6f407e16f",
+        "profilePicture": null,
+        "name": "Stupar",
+        "username": "merismeris",
+        "bio": ""
+      }
+    },
+    {
+      "_id": "63c41b6a771becae4507c15c",
+      "content": "test",
+      "creatorId": "63bb4388b362a9b6f407e16f",
+      "createdAt": "2023-01-15T15:27:38.893Z",
+      "creator": {
+        "_id": "63bb4388b362a9b6f407e16f",
+        "profilePicture": null,
+        "name": "Stupar",
+        "username": "merismeris",
+        "bio": ""
+      }
+    },
+    {
+      "_id": "63c2c25294ffa813d0c0490e",
+      "content": "test",
+      "creatorId": "63bb4388b362a9b6f407e16f",
+      "createdAt": "2023-01-14T14:55:14.850Z",
+      "creator": {
+        "_id": "63bb4388b362a9b6f407e16f",
+        "profilePicture": null,
+        "name": "Stupar",
+        "username": "merismeris",
+        "bio": ""
+      }
+    },
+    {
+      "_id": "63c2b88b94ffa813d0c0490c",
+      "content": "cao",
+      "creatorId": "63bb4388b362a9b6f407e16f",
+      "createdAt": "2023-01-14T14:13:31.597Z",
+      "creator": {
+        "_id": "63bb4388b362a9b6f407e16f",
+        "profilePicture": null,
+        "name": "Stupar",
+        "username": "merismeris",
+        "bio": ""
+      }
+    },
+    {
+      "_id": "63ac4b9b26a2f1351aaeb7ed",
+      "content": "Test 2",
+      "creatorId": "63a219e455a7e3536097e9e2",
+      "createdAt": "2022-12-28T13:58:51.297Z",
+      "creator": {
+        "_id": "63a219e455a7e3536097e9e2",
+        "profilePicture": null,
+        "name": "Stupar",
+        "username": "meris",
+        "bio": ""
+      }
+    },
+    {
+      "_id": "63ac4b3e26a2f1351aaeb7ec",
+      "content": "Test 1",
+      "creatorId": "63a219e455a7e3536097e9e2",
+      "createdAt": "2022-12-28T13:57:18.985Z",
+      "creator": {
+        "_id": "63a219e455a7e3536097e9e2",
+        "profilePicture": null,
+        "name": "Stupar",
+        "username": "meris",
+        "bio": ""
+      }
+    }
+  ]
+}
